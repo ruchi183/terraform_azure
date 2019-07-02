@@ -1,4 +1,4 @@
-/*resource "azurerm_virtual_machine_extension" "demo" {
+resource "azurerm_virtual_machine_extension" "demo" {
     count = 3
     name = "MicrosoftMonitoringAgent"
     location = "${azurerm_resource_group.demo.location}"
@@ -20,4 +20,4 @@
    "workspaceKey" : "${var.omskey}"
  }
  PROTECTED_SETTINGS
-}*/
+}
