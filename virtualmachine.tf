@@ -60,8 +60,8 @@ resource azurerm_virtual_machine demo{
         ]
         connection{
             type = "winrm"
-            user = "opsadmin"
-            password = "welcome@12345"
+            user = "admin"
+            password = "xxxx"
         }
     }
 }
